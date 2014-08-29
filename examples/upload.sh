@@ -5,4 +5,4 @@
 FILE="myfile.txt"
 TYPE="image/jpeg"
 
-curl -F "token=SECRET" -F "filename=$FILE;$TYPE;" -F "name=$FILE" -F "image=@$FILE" http://fileserver-bparees.rhcloud.com/$FILE
+curl -F "token=secret" -F "filename=$FILE;$TYPE;" -F "name=$FILE" -F "image=@$FILE" http://fileserver-bparees.rhcloud.com/$FILE
