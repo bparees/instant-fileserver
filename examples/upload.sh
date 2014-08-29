@@ -4,6 +4,5 @@
 
 HOST=$1
 FILE=$2
-TYPE="image/jpeg"
 
-curl -k -F "token=secret" -F "filename=$FILE;$TYPE;" -F "name=$FILE" -F "image=@$FILE" https://$HOST/
+curl -k -F "token=secret" -F "filename=$FILE" -F "name=$FILE" -F "image=@$FILE" https://$HOST/
